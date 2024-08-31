@@ -1,0 +1,62 @@
+body{
+    background-color: purple;
+}
+
+.datetimes{
+    width:fit-content;
+    height: 100px;
+    background-color: white;
+    color: brown;
+    font-family: Georgia;
+    font-size: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+}
+
+.form-class{
+    width: fit-content;
+    height: fit-content;
+    background-color: gray;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    top: 100px;
+    left: 250px;
+    right: 250px;
+    bottom: 150px;
+    align-items: center;
+}
+
+input[type='text']:hover {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+input[type='password']:hover {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+}
+
+input[type='submit']:hover{
+    color: white;
+    background-color: blue;
+}
+
+#p1{
+    align-items: center;
+    color: rgb(61, 7, 185);
+    background-color: aqua;
+}

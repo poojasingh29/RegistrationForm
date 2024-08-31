@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cs.css">
+</head>
+<body>
+    <div class="datetimes">
+        <p >Date :<span id="Dates"></span></p>
+        <p>Time :<span id="Time"></span></p>
+    </div>
+    
+    <div>
+        <form class="form-class" id="myform">
+            <table>
+                <tr>
+                    <th colspan="2" style="text-align: center;"><h1>Registration Form</h1></th>
+                </tr>
+
+                <tr>
+                    <td>First Name : </td>
+                    <td><input type="text" size="40px" id="name" required></td>
+                </tr>
+
+                <tr>
+                    <td>Last Name : </td>
+                    <td><input type="text" size="40px" id="last" required></td>
+                </tr>
+
+                <tr>
+                    <td>Password : </td>
+                    <td><input type="password" size="40px" id="password1" required></td>
+                </tr>
+
+                <tr>
+                    <td>Confirm Password : </td>
+                    <td><input type="password" size="40px" id="password2" required></td>
+                </tr>
+
+                <tr>
+                    <td>Gender : </td>
+                    <td><input type="radio" name="gen" required>Male
+                    <input type="radio" name="gen" required>Female</td>
+                </tr>
+
+                <tr>
+                    <td>Mobile Number : </td>
+                    <td><input type="text" size="40px" id="mob" required></td>
+                </tr>
+
+                <tr>
+                    <td>DOB : </td>
+                    <td><input type="text" size="40px" id="dob" required></td>
+                </tr>
+
+                <tr>
+                    <td>E-mail : </td>
+                    <td><input type="text" size="40px" id="email" required></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center;"><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+            <p id="p1">Disclaimer : Form should be submitted before 3 minutes else the form gets refreshed</p>
+        </form>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script lang="javascript" src="javascript.js"></script>
+</body>
+</html>
