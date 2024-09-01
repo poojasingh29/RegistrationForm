@@ -29,7 +29,25 @@ body{
     bottom: 150px;
     align-items: center;
 }
+@media screen and (max-width: 768px) {
+    .form-class {
+        position: static;
+        margin: 20px auto;
+        width: 90%;
+        height: auto;
+    }
+     input[type='text'], 
+    input[type='password'], 
+    input[type='submit'] {
+        width: 100%;
+    }
 
+    .datetimes {
+        position: static;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
 input[type='text']:hover {
     width: 100%;
     padding: 10px;
